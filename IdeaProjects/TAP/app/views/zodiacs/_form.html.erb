@@ -1,0 +1,22 @@
+<%= form_for(zodiac) do |f| %>
+    <% if zodiac.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(zodiac.errors.count, "error") %> prohibited this zodiac from being saved:</h2>
+
+          <ul>
+            <% zodiac.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :zodiac_desc %>
+      <%= f.text_field :zodiac_desc %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>

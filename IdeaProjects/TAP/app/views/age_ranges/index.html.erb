@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Age Ranges</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Age range code</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @age_ranges.each do |age_range| %>
+      <tr>
+        <td><%= age_range.age_range_code %></td>
+        <td><%= link_to 'Show', age_range %></td>
+        <td><%= link_to 'Edit', edit_age_range_path(age_range) %></td>
+        <td><%= link_to 'Destroy', age_range, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Age Range', new_age_range_path %>

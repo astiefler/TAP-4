@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Zodiacs</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Zodiac desc</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @zodiacs.each do |zodiac| %>
+      <tr>
+        <td><%= zodiac.zodiac_desc %></td>
+        <td><%= link_to 'Show', zodiac %></td>
+        <td><%= link_to 'Edit', edit_zodiac_path(zodiac) %></td>
+        <td><%= link_to 'Destroy', zodiac, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Zodiac', new_zodiac_path %>

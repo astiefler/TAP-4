@@ -1,0 +1,60 @@
+country_id,state_name,state_abbv
+c1,Alabama,AL
+c1,Alaska,AK
+c1,Arizona,AZ
+c1,Arkansas,AR
+c1,California,CA
+c1,Colorado,CO
+c1,Conneticuit,CT
+c1,Delaware,DE
+c1,Florida,FL
+c1,Georgia,GA
+c1,Hawaii,HI
+c1,Idaho,ID
+c1,Illinois,IL
+c1,Indiana,IN
+c1,Iowa,IA
+c1,Kansas,KS
+c1,Kentucky,KY
+c1,Louisiana,LA
+c1,Maine,ME
+c1,Maryland,MD
+c1,Massachusetts,MA
+c1,Michigan,MI
+c1,Minnesota,MN
+c1,Mississippi,MS
+c1,Missouri,MO
+c1,Montana,MT
+c1,Nebraska,NE
+c1,Nevada,NV
+c1,New Hampshire,NH
+c1,New Jersey,NJ
+c1,New Mexico,NM
+c1,New York,NY
+c1,North Carolina,NC
+c1,North Dakota,ND
+c1,Ohio,OH
+c1,Oklahoma,OK
+c1,Oregon,OR
+c1,Pennsylvania,PA
+c1,Rhode Island,RI
+c1,South Carolina,SC
+c1,South Dakota,SD
+c1,Tennessee,TN
+c1,Texas,TX
+c1,Utah,UT
+c1,Vermont,VT
+c1,Virginia,VA
+c1,Washington,WA
+c1,West Virginia,WV
+c1,Wisconsin,WI
+c1,Wyoming,WY
+c1,District of Columbia,DC
+c1,American Samoa,AS
+c1,Guam,GU
+c1,Northern Mariana Islands,MP
+c1,Puerto Rico,PR
+c1,U.S. Virgin Islands,VI
+c1,U.S. Armed Forces - Americas,AA
+c1,U.S. Armed Forces - Europe,AE
+c1,U.S. Armed Forces - Pacific,AP

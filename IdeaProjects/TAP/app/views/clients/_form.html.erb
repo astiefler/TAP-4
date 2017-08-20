@@ -1,0 +1,82 @@
+<%= form_for(client) do |f| %>
+  <% if client.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(client.errors.count, "error") %> prohibited this client from being saved:</h2>
+
+      <ul>
+      <% client.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :gender_id %>
+    <%= f.number_field :gender_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :blood_type_id %>
+    <%= f.number_field :blood_type_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :state_id %>
+    <%= f.number_field :state_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :country_id %>
+    <%= f.number_field :country_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :age_range_id %>
+    <%= f.number_field :age_range_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :zodiac_id %>
+    <%= f.number_field :zodiac_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :age %>
+    <%= f.number_field :age %>
+  </div>
+
+  <div class="field">
+    <%= f.label :weight %>
+    <%= f.text_field :weight %>
+  </div>
+
+  <div class="field">
+    <%= f.label :height %>
+    <%= f.text_field :height %>
+  </div>
+
+  <div class="field">
+    <%= f.label :occupation %>
+    <%= f.text_field :occupation %>
+  </div>
+
+  <div class="field">
+    <%= f.label :premium %>
+    <%= f.text_field :premium %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
