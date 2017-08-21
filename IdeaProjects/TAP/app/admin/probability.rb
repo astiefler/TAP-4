@@ -6,12 +6,12 @@ ActiveAdmin.register Probability do
 
   index do
 
-    column :state
+    column :state, sortable: :state_name
     column :age_range
     column :gender
     column :population
     column "Deaths", :death
-    column "Probability of Death", :probability do |probability|
+    column "Probability of Death", :probability, sortable: :probability do |probability|
       number_to_percentage probability.probability
     end
     actions

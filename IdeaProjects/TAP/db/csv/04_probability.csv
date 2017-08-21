@@ -1,4 +1,4 @@
-state_id,age_range_id,gender_id,Population,Deaths,Probability
+state_id,age_range_id,gender_id,Population,Death,Probability
 1,1,2,499797,4033,0.008069276
 1,1,1,518618,5264,0.010150053
 1,4,2,2659641,509,0.000191379
