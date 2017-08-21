@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>State:</strong>
+  <%= @probability.state_id %>
+</p>
+
+<p>
+  <strong>Age range:</strong>
+  <%= @probability.age_range_id %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @probability.gender_id %>
+</p>
+
+<p>
+  <strong>Population:</strong>
+  <%= @probability.population %>
+</p>
+
+<p>
+  <strong>Death:</strong>
+  <%= @probability.death %>
+</p>
+
+<p>
+  <strong>Probability:</strong>
+  <%= @probability.probability %>
+</p>
+
+<%= link_to 'Edit', edit_probability_path(@probability) %> |
+<%= link_to 'Back', probabilities_path %>

@@ -25,10 +25,10 @@
   <tbody>
     <% @clients.each do |client| %>
       <tr>
-        <td><%= client.gender_id %></td>
+        <td><%= client.Gender.gender_desc %></td>
         <td><%= client.blood_type_id %></td>
         <td><%= client.state_id %></td>
-        <td><%= client.country_id %></td>
+        <td><%= client.Country.country_name %></td>
         <td><%= client.age_range_id %></td>
         <td><%= client.zodiac_id %></td>
         <td><%= client.first_name %></td>

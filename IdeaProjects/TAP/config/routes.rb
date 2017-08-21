@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :probabilities
   resources :clients
   resources :blood_types
   resources :zodiacs

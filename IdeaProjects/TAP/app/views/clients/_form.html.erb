@@ -11,6 +11,21 @@
     </div>
   <% end %>
 
+    <div class="field">
+      <%= f.label :first_name %>
+      <%= f.text_field :first_name %>
+    </div>
+
+    <div class="field">
+      <%= f.label :last_name %>
+      <%= f.text_field :last_name %>
+    </div>
+
+    <div class="field">
+      <%= f.label :age %>
+      <%= f.number_field :age %>
+    </div>
+
   <div class="field">
     <%= f.label :gender_id %>
     <%= f.number_field :gender_id %>
@@ -41,20 +56,7 @@
     <%= f.number_field :zodiac_id %>
   </div>
 
-  <div class="field">
-    <%= f.label :first_name %>
-    <%= f.text_field :first_name %>
-  </div>
 
-  <div class="field">
-    <%= f.label :last_name %>
-    <%= f.text_field :last_name %>
-  </div>
-
-  <div class="field">
-    <%= f.label :age %>
-    <%= f.number_field :age %>
-  </div>
 
   <div class="field">
     <%= f.label :weight %>

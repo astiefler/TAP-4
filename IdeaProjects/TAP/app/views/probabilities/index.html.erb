@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Probabilities</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Age range</th>
+      <th>Gender</th>
+      <th>Population</th>
+      <th>Death</th>
+      <th>Probability</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @probabilities.each do |probability| %>
+      <tr>
+        <td><%= probability.state_id %></td>
+        <td><%= probability.age_range_id %></td>
+        <td><%= probability.gender_id %></td>
+        <td><%= probability.population %></td>
+        <td><%= probability.death %></td>
+        <td><%= probability.probability %></td>
+        <td><%= link_to 'Show', probability %></td>
+        <td><%= link_to 'Edit', edit_probability_path(probability) %></td>
+        <td><%= link_to 'Destroy', probability, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Probability', new_probability_path %>
