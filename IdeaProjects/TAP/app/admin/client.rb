@@ -8,9 +8,19 @@ ActiveAdmin.register Client do
 
     form do |f|
       f.inputs do
+        f.input :first_name
+        f.input :last_name
+
+
         f.input :country_id, :as => :select, :collection => Country.all
         f.input :state_id, :as => :select, :collection => State.all
         f.input :age_range_id, :as => :select, :collection => AgeRange.all
+        f.input :age, :as => :string
+        f.input :height, :as => :string
+        f.input :weight, :as => :string
+        f.input :occupation, :as => :string
+        f.input :zodiac, :as => :select, :collection => Zodiac.all
+
 
       end
       f.actions
