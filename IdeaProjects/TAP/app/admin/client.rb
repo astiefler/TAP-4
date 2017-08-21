@@ -1,8 +1,20 @@
 ActiveAdmin.register Client do
+    filter :first_name
+    filter :last_name
+
     filter :age_range
     filter :state
     filter :gender
 
+    form do |f|
+      f.inputs do
+        f.input :country_id, :as => :select, :collection => Country.all
+        f.input :state_id, :as => :select, :collection => State.all
+        f.input :age_range_id, :as => :select, :collection => AgeRange.all
+
+      end
+      f.actions
+    end
     index do
       column :first_name
       column :last_name
@@ -29,5 +41,7 @@ ActiveAdmin.register Client do
 
 
     actions
-  end
+    end
+
+
 end

@@ -229,6 +229,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   draper
+  formtastic
   inherited_resources
   jbuilder (~> 2.5)
   jquery-rails
