@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78e89226-704b-4579-a18f-cac717b70a87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/784abe03-f04d-4dbf-bcaa-ee5b3965eb09.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/784abe03-f04d-4dbf-bcaa-ee5b3965eb09.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/client.rb" afterPath="$PROJECT_DIR$/app/admin/client.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/probability.rb" afterPath="$PROJECT_DIR$/app/admin/probability.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/client.rb" afterPath="$PROJECT_DIR$/app/models/client.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/probability.rb" afterPath="$PROJECT_DIR$/app/models/probability.rb" />
     </list>
     <ignored path="TAP.iws" />
@@ -137,16 +137,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="state.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/state.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/clients/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -157,102 +147,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="probability.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/probability.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="zodiac.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/zodiac.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="68">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clients" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/b29eae85/784abe03-f04d-4dbf-bcaa-ee5b3965eb09/clients">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+      <file leaf-file-name="client.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/admin/client.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="age_ranges" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/b29eae85/784abe03-f04d-4dbf-bcaa-ee5b3965eb09/age_ranges">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="client.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/client.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="probability.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/probability.rb">
+        <entry file="file://$PROJECT_DIR$/app/models/client.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="87" selection-start-line="1" selection-start-column="87" selection-end-line="1" selection-end-column="87" />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="states" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/b29eae85/784abe03-f04d-4dbf-bcaa-ee5b3965eb09/states">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="genders" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/b29eae85/784abe03-f04d-4dbf-bcaa-ee5b3965eb09/genders">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -289,13 +209,13 @@
         <option value="$PROJECT_DIR$/app/models/blood_type.rb" />
         <option value="$PROJECT_DIR$/app/views/clients/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/clients/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/admin/client.rb" />
         <option value="$PROJECT_DIR$/app/models/state.rb" />
         <option value="$PROJECT_DIR$/app/models/gender.rb" />
         <option value="$PROJECT_DIR$/app/models/age_range.rb" />
         <option value="$PROJECT_DIR$/app/models/client.rb" />
-        <option value="$PROJECT_DIR$/app/admin/probability.rb" />
         <option value="$PROJECT_DIR$/app/models/probability.rb" />
+        <option value="$PROJECT_DIR$/app/admin/probability.rb" />
+        <option value="$PROJECT_DIR$/app/admin/client.rb" />
       </list>
     </option>
   </component>
@@ -1284,12 +1204,12 @@
       <option name="presentableId" value="Default" />
       <updated>1503242021655</updated>
       <workItem from="1503242025334" duration="8194000" />
-      <workItem from="1503264785834" duration="6559000" />
+      <workItem from="1503264785834" duration="8492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14753000" />
+    <option name="totallyTimeSpent" value="16686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1096" extended-state="6" />
@@ -1338,14 +1258,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1741,6 +1653,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/b29eae85/784abe03-f04d-4dbf-bcaa-ee5b3965eb09/age_ranges">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/state.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/age_range.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/state.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="dbDummy://dbtable:/b29eae85/784abe03-f04d-4dbf-bcaa-ee5b3965eb09/genders">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1780,7 +1729,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/b29eae85/784abe03-f04d-4dbf-bcaa-ee5b3965eb09/age_ranges">
+    <entry file="dbDummy://dbtable:/b29eae85/784abe03-f04d-4dbf-bcaa-ee5b3965eb09/probabilities">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1790,46 +1739,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/state.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/gender.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/age_range.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1843,32 +1752,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/zodiac.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/state.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/gender.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/probability.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="87" selection-start-line="1" selection-start-column="87" selection-end-line="1" selection-end-column="87" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/probability.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="64" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/probability.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>

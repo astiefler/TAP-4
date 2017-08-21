@@ -1,4 +1,8 @@
 ActiveAdmin.register Client do
+    filter :age_range
+    filter :state
+    filter :gender
+
     index do
       column :first_name
       column :last_name
