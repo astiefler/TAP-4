@@ -7,13 +7,13 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 AgeRange.delete_all
-# AdminUser.delete_all
+AdminUser.delete_all
 Gender.delete_all
-# Country.delete_all
-# State.delete_all
+Country.delete_all
+State.delete_all
 Zodiac.delete_all
 
-# AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
 
 AgeRange.create(age_range_code: '<1')
 AgeRange.create(age_range_code: '1-4')
@@ -39,11 +39,11 @@ Gender.create(gender_desc: 'Female')
 
 require 'csv'
 
-# c1 = Country.create(country_name: 'United States of America', country_abbv: 'USA')
-#
-# CSV.foreach('db/csv/02_state.csv', {encoding: 'UTF-8', headers: true, header_converters: :symbol, converters: :all}) do |row|
-#   State.create(row.to_hash)
-# end
+Country.create(country_name: 'United States of America', country_abbv: 'USA')
+
+CSV.foreach('db/csv/02_state.csv', {encoding: 'UTF-8', headers: true, header_converters: :symbol, converters: :all}) do |row|
+  State.create(row.to_hash)
+end
 
 CSV.foreach('db/csv/03_zodiac.csv', {encoding: 'UTF-8', headers: true, header_converters: :symbol, converters: :all}) do |row|
   Zodiac.create(row.to_hash)
