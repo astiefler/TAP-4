@@ -6,4 +6,7 @@ class Client < ApplicationRecord
   belongs_to :state
   belongs_to :country
   belongs_to :gender
+
+
+
 end
