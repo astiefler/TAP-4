@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-#
+
 # AgeRange.delete_all
 # AdminUser.delete_all
 # Gender.delete_all
@@ -38,7 +38,7 @@
 # Gender.create(gender_desc: 'Female')
 #
 require 'csv'
-#
+
 # Country.create(country_name: 'United States of America', country_abbv: 'USA')
 #
 # CSV.foreach('db/csv/02_state.csv', {encoding: 'UTF-8', headers: true, header_converters: :symbol, converters: :all}) do |row|
@@ -52,7 +52,11 @@ require 'csv'
 # CSV.foreach('db/csv/04_probability.csv', {encoding: 'UTF-8', headers: true, header_converters: :symbol, converters: :all}) do |row|
 #   Probability.create(row.to_hash)
 # end
+#
+# CSV.foreach('db/csv/05_blood_type.csv', {encoding: 'UTF-8', headers: true, header_converters: :symbol, converters: :all}) do |row|
+#   BloodType.create(row.to_hash)
+# end
 
-CSV.foreach('db/csv/05_blood_type.csv', {encoding: 'UTF-8', headers: true, header_converters: :symbol, converters: :all}) do |row|
-  BloodType.create(row.to_hash)
+CSV.foreach('db/csv/06_client.csv', {encoding: 'UTF-8', headers: true, header_converters: :symbol, converters: :all}) do |row|
+  Client.create(row.to_hash)
 end
