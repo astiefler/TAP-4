@@ -1,7 +1,7 @@
 ActiveAdmin.register State, {:sort_order => :name_asc} do
 
   permit_params :country_id, :state_name, :state_abbv
-  filter :country_id
+  filter :country
 
   index do
     column "Country" do |state|

@@ -1,5 +1,7 @@
 ActiveAdmin.register Client do
-    filter :first_name
+  permit_params :gender_id, :blood_type_id, :state_id, :country_id, :age_range_id, :zodiac_id, :first_name, :last_name,
+                :age, :weight, :height, :occupation, :premium
+  filter :first_name
     filter :last_name
 
     filter :age_range
