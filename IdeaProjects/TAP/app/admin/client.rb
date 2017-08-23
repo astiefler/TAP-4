@@ -17,11 +17,15 @@ ActiveAdmin.register Client do
         f.input :country_id, :as => :select, :collection => Country.all
         f.input :state_id, :as => :select, :collection => State.all
         f.input :age_range_id, :as => :select, :collection => AgeRange.all
+        f.input :gender_id, :as => :select, :collection => Gender.all
+
         f.input :age, :as => :string
         f.input :height, :as => :string
         f.input :weight, :as => :string
+        f.input :blood_type_id, :as => :select, :collection => BloodType.all
         f.input :occupation, :as => :string
         f.input :zodiac, :as => :select, :collection => Zodiac.all
+        f.input :premium
 
 
       end
