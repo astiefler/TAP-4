@@ -30,6 +30,9 @@ ActiveAdmin.register Client do
 
       end
       f.actions
+
+
+
     end
     index do
       column :first_name
@@ -57,7 +60,20 @@ ActiveAdmin.register Client do
 
 
     actions
+
     end
 
+  action_item :calculate, only: :new do
+    link_to 'Calculate'
+  end
+    member_action :calculate, method: :put do
+      s = :state_id
+      a = :age_range_id
+      g = :gender_id
+      q2 = Probability.where(state_id: state_id, age_range_id: age_range_id, gender_id: gender_id).pluck(:probability)
+      q3 = q2[0]
+      self.premium = (q3 * 1000) * 1.12
+      redirect_to_client_path(client)
+    end
 
 end
